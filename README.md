@@ -1,6 +1,6 @@
 # Boss
 
-This project is for request permission in Android, the easy form, dou yo see example in MainActivity.class
+This project is for request permission in Android, the easy form, do yo see example in MainActivity.class.
 
 
 How to use this library?
