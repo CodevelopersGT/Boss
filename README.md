@@ -1,11 +1,13 @@
 # Boss
 
-This project is for request permission in Android, the easy form, do you see example in MainActivity.class.
+This project is the easy way for request permission in Android.
+
+You could see an example in MainActivity.class.
 
 
 How to use this library?
 
-Add the following repository on your build gradle (project level):
+Add the following lines on your build gradle (project level):
 
 ```
 allprojects {
