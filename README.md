@@ -22,7 +22,7 @@ Add implementation on your gradle (module level):
 
 ```
 dependencies {
-	        implementation 'com.github.CodevelopersGT:Boss:v1.0.0'
+	        implementation 'com.github.CodevelopersGT:Boss:v1.0.1'
 	}
 ```
   
