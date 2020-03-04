@@ -25,7 +25,7 @@ public class Boss {
     private Context context;
     private OnPermissionListener onPermissionListener;
 
-    public Boss(@NonNull Activity activity, @NonNull OnPermissionListener listener) {
+    public Boss(@NonNull FragmentActivity activity, @NonNull OnPermissionListener listener) {
 
         this.context = new Context(activity);
         this.onPermissionListener = listener;
@@ -82,7 +82,7 @@ public class Boss {
                 if (context.isFragment())
                     confirmDialog.show(context.getFragment().getFragmentManager(), "");
                 else
-                    confirmDialog.show(((FragmentActivity) context.getActivity()).getSupportFragmentManager(), "");
+                    confirmDialog.show(context.getActivity().getSupportFragmentManager(), "");
 
                 return;
             }
